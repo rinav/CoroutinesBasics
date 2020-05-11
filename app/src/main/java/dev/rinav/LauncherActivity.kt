@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import dev.rinav.image_processing.ImageProcessingActivity
 import dev.rinav.retrofit_sample.ui.RetrofitActivity
 import kotlinx.android.synthetic.main.activity_launcher.*
 

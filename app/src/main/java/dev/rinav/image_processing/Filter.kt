@@ -1,4 +1,4 @@
-package dev.rinav
+package dev.rinav.image_processing
 
 /**
  * Created by Rinav Gangar <rinav.dev> on 11/5/20.

@@ -1,4 +1,4 @@
-package dev.rinav
+package dev.rinav.image_processing
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import dev.rinav.R
 import kotlinx.android.synthetic.main.activity_image_processing.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

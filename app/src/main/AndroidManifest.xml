@@ -27,7 +27,7 @@
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".ImageProcessingActivity"
+            android:name=".image_processing.ImageProcessingActivity"
             android:screenOrientation="portrait" />
 
     </application>
