@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".LauncherActivity">
+
+    <Button
+        android:id="@+id/btn_img_processing"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Coroutines with Image Processing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_retrofit"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Coroutines with Retrofit"
+        app:layout_constraintEnd_toEndOf="@+id/btn_img_processing"
+        app:layout_constraintStart_toStartOf="@+id/btn_img_processing"
+        app:layout_constraintTop_toBottomOf="@+id/btn_img_processing" />
+
+    <Button
+        android:id="@+id/btn_room"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Coroutines with Room"
+        app:layout_constraintEnd_toEndOf="@+id/btn_img_processing"
+        app:layout_constraintStart_toStartOf="@+id/btn_img_processing"
+        app:layout_constraintTop_toBottomOf="@+id/btn_retrofit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
