@@ -9,10 +9,12 @@
 
     <Button
         android:id="@+id/btn_img_processing"
-        android:layout_width="377dp"
+        style="@style/StandardButton"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:gravity="center"
+        android:padding="8dp"
         android:text="Coroutines with Image Processing"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,9 +22,11 @@
 
     <Button
         android:id="@+id/btn_retrofit"
-        android:layout_width="377dp"
+        style="@style/StandardButton"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:padding="8dp"
         android:text="Coroutines with Retrofit"
         app:layout_constraintEnd_toEndOf="@+id/btn_img_processing"
         app:layout_constraintStart_toStartOf="@+id/btn_img_processing"
@@ -30,9 +34,11 @@
 
     <Button
         android:id="@+id/btn_room"
-        android:layout_width="377dp"
+        style="@style/StandardButton"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:padding="8dp"
         android:text="Coroutines with Room"
         app:layout_constraintEnd_toEndOf="@+id/btn_img_processing"
         app:layout_constraintStart_toStartOf="@+id/btn_img_processing"

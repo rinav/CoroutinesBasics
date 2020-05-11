@@ -30,6 +30,9 @@
             android:name=".image_processing.ImageProcessingActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".room_sample.RoomActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

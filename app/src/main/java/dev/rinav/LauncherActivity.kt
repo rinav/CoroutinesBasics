@@ -6,6 +6,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import dev.rinav.image_processing.ImageProcessingActivity
 import dev.rinav.retrofit_sample.ui.RetrofitActivity
+import dev.rinav.room_sample.RoomActivity
 import kotlinx.android.synthetic.main.activity_launcher.*
 
 class LauncherActivity : AppCompatActivity(), View.OnClickListener {
@@ -21,16 +22,17 @@ class LauncherActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View?) {
 
-        when(v?.id) {
+        when (v?.id) {
             btn_img_processing.id -> {
                 startActivity(Intent(this@LauncherActivity, ImageProcessingActivity::class.java))
             }
+
             btn_retrofit.id -> {
                 startActivity(Intent(this@LauncherActivity, RetrofitActivity::class.java))
             }
 
             btn_room.id -> {
-                //startActivity(Intent(this@LauncherActivity,  ))
+                startActivity(Intent(this@LauncherActivity, RoomActivity::class.java))
             }
         }
     }
