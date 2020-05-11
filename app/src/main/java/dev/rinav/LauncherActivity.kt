@@ -6,7 +6,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import dev.rinav.image_processing.ImageProcessingActivity
 import dev.rinav.retrofit_sample.ui.RetrofitActivity
-import dev.rinav.room_sample.RoomActivity
+import dev.rinav.room_sample.ui.RoomActivity
 import kotlinx.android.synthetic.main.activity_launcher.*
 
 class LauncherActivity : AppCompatActivity(), View.OnClickListener {

@@ -1,4 +1,4 @@
-package dev.rinav.room_sample
+package dev.rinav.room_sample.ui
 
 import android.os.Bundle
 import android.view.WindowManager

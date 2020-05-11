@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/signupFragment"
-        android:name="dev.rinav.room_sample.SignupFragment"
+        android:name="dev.rinav.room_sample.ui.SignupFragment"
         android:label="SignupFragment"
         tools:layout="@layout/fragment_signup">
 
@@ -24,7 +24,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="dev.rinav.room_sample.LoginFragment"
+        android:name="dev.rinav.room_sample.ui.LoginFragment"
         android:label="LoginFragment"
         tools:layout="@layout/fragment_login">
 
@@ -40,7 +40,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="dev.rinav.room_sample.HomeFragment"
+        android:name="dev.rinav.room_sample.ui.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home">
 
